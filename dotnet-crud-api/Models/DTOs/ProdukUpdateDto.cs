@@ -12,9 +12,6 @@ namespace dotnet_crud_api.Models.DTOs
         [Range(0.01, 1000000000, ErrorMessage = "Harga harus antara 0.01 dan 1.000.000.000.")]
         public decimal Harga { get; set; }
 
-        [Required(ErrorMessage = "Stok wajib diisi.")]
-        [Range(0, int.MaxValue, ErrorMessage = "Stok tidak boleh negatif.")]
-        public int Stok { get; set; }
 
         [Required(ErrorMessage = "Kategori wajib diisi.")]
         public int KategoriId { get; set; }

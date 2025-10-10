@@ -43,7 +43,6 @@ namespace dotnet_crud_api.Controllers
                 Id = produk.Id,
                 Nama = produk.Nama,
                 Harga = produk.Harga,
-                KategoriId = produk.KategoriId,
                 KategoriNama = kategori.Nama
             };
 
